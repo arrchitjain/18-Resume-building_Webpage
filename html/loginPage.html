@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en"> <!-- language taken as american english-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--used to manage the size of css and size on any device(mobile)-->
+    <title>Login form</title>
+
+    <link rel="stylesheet" href="../css/loginPage.css"> <!--link to css file for login page -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!--External link for images such as username and password -->
+
+</head>
+<body>
+    <form class="login_box">
+        <h1>Login</h1>
+
+        <div class="form_input">
+            <i class="fa fa-user" aria-hidden="true"></i> <!--external link image for username-->
+            <input type="text" placeholder="Enter username"> <!--input type text for username-->
+        </div>        
+        
+        <div class="form_input">
+            <i class="fa fa-lock" aria-hidden="true"></i> <!--external link image for password-->
+            <input type="password" placeholder="Enter password"> <!--input type password(hide the text while typing) for password-->
+        </div>        
+        <input type="Submit" value="Login" class="submit_button"> <!--input type submit (no need to take button if button used then need to define the onclick property) for submitting the form and this is declared inside the <form tag>-->
+
+        <p class="signUp">Don't have account? <a href="registration.html">SignUp Here</a></p>
+
+
+    </form>
+    
+</body>
+</html>

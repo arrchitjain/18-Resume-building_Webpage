@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en"> <!-- language taken as american english-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--used to manage the size of css and size on any device(mobile)-->
+    <title>Registration form</title>
+
+    <link rel="stylesheet" href="../css/registration.css"> <!--link to css file for login page -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!--External link for images such as username and password -->
+
+</head>
+<body>
+    <form class="registration_box">
+        <h1>Registration</h1>
+
+        
+        <div class="form_input">
+            <i class="fa fa-address-book-o" aria-hidden="true"></i> <!--external link image for username-->
+            <input type="text" placeholder="Enter Username"> <!--input type text for username--> 
+        </div>        
+
+        <div class="form_input">
+            <i class="fa fa-user-circle-o" aria-hidden="true"></i> <!--external link image for first name-->
+            <input type="text" placeholder="First Name"> <!--input type text for first name-->
+        </div>        
+        
+        <div class="form_input">
+            <i class="fa fa-user-o" aria-hidden="true"></i> <!--external link image for last name-->
+            <input type="text" placeholder="Last Name"> <!--input type text for last name-->
+        </div>        
+        
+        <div class="form_input">
+            <i class="fa fa-envelope" aria-hidden="true"></i> <!--external link image for email-->
+            <input type="email" placeholder="Email"> <!--input type text for email-->
+        </div>        
+        
+        <div class="form_input">
+            <i class="fa fa-book" aria-hidden="true"></i>
+            <input type="text" placeholder="Project Name"> 
+        </div>        
+
+        <div class="form_input">
+            <i class="fa fa-pencil" aria-hidden="true"></i> 
+            <input type="text" placeholder="Project Description"> 
+        </div>        
+        
+        <div class="form_input">
+            <i class="fa fa-key" aria-hidden="true"></i> <!--external link image for password-->
+            <input type="password" placeholder="Create Password"> <!--input type password(hide the text while typing) for password-->
+        </div>        
+        
+        <input type="Submit" value="Submit" class="submit_button"> <!--input type submit (no need to take button if button used then need to define the onclick property) for submitting the form and this is declared inside the <form tag>-->
+
+        <p class="login">Aldready have an account? <a href="loginPage.html">Login Here</a></p>
+
+
+    </form>
+    
+</body>
+</html>
